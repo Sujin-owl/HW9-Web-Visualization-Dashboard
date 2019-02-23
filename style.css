@@ -1,0 +1,80 @@
+body {
+    background:lightgray;
+  }
+  .jumbotron{
+    padding: 20px;
+    background-color: white;
+    margin-top:30px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:30px;
+    align-content: center;
+  }
+
+img{vertical-align: center;
+align-content: center}
+img.img-fluid{
+    padding:10px;
+    vertical-align: middle;
+}
+p{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #78c2ad;
+    font-size: 35px
+}
+
+}
+.category {font-family: 'Times New Roman', Times, serif;
+font-size: 15px}
+
+h2{font-family: 'Times New Roman', Times, serif;
+color:#78c2ad;
+font-size: 20px;
+text-align: center
+}
+
+  .navbar li {
+    display: d-block;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+
+  
+  .latitude {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    background-color: #78c2ad;
+    border: 1px solid #78c2ad;
+    padding: 5px; 
+  }
+  /* Adding media queries to change the narbar's background color */
+  @media (max-width: 720px) {
+    
+   
+   nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+       background: #78c2ad!important
+   }
+   .responsive {
+    width: 100%;
+    height: auto;
+  }
+ 
+
+}
+ 
+  
+  @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+          width: 100%;
+      }
+    }
